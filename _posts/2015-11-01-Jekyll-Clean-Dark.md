@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Installation"
+title: "Jekyll Clean Dark"
 date: 2015-11-01 16:25:06
 description: Here you'll find out how to install this theme
 tags: 
  - jekyll
 ---
-
-# Jekyll Clean Dark
 
 ## Installation
 
@@ -16,24 +14,75 @@ If you already have your own blog then I think you can clone this repository and
 
 After you will have to set up your `_config.yml`
 
-## License
+## Text formatting
 
-The content of this theme is distributed and licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+### Text formatting example
 
-> This license lets others distribute, remix, tweak, and build upon your work,
-> even commercially, as long as they credit you for the original creation. This
-> is the most accommodating of licenses offered. Recommended for maximum
-> dissemination and use of licensed materials.
+Some examples of text formatting for some common text elements.
 
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to the original theme on github.
+### Headers
 
-This theme includes the following files which are the properties of their
-respective owners:
+### Header3
 
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
+#### Header4
+
+##### Header5
+
+###### Header6
+
+### Emphasis
+
+Italics: `*asterisks*` -> *asterisks* or `_underscores_` -> _underscores_.
+
+Bold: `**asterisks**` -> **asterisks** or `__underscores__` -> __underscores__.
+
+You also can combine them: `**asterisks and _underscores_**` -> **asterisks and _underscores_**.
+
+### Blockquotes and notes
+
+{% highlight bash %}
+
+>Blockquotes
+>{% endhighlight bash %}
+
+>Blockquotes
+
+Using very cool [feature](http://kramdown.gettalong.org/quickref.html#block-attributes) of kramdown which allows to assign any attribute to a block-level element I've added note and warning:
+
+{% highlight bash %}
+
+>Note 
+>{: .note}
+>{% endhighlight bash %}
+
+>Note 
+>{: .note}
+
+{% highlight bash %}
+
+>Warning 
+>{: .note .warning}
+>{% endhighlight bash %}
+
+>Warning 
+>{: .note .warning}
+
+### Keyboard buttons
+
+In case you need to show some keyboard shortcuts, like `Ctrl`{: .key}+`A`{:.key} use following construction:
+
+{% highlight bash %}
+`Ctrl`{: .key}+`A`{:.key}
+{% endhighlight bash %}
+
+Example of keyboard shortcuts in a terminal:
+
+`Ctrl`{: .key} + `A`{: .key} = move cursor to beginning of line
+`Ctrl`{: .key} + `E`{: .key} = move cursor to end of line
+`Ctrl`{: .key} + `C`{: .key} = kills the current process.
+`Ctrl`{: .key} + `Z`{: .key} = sends the current process to the background.
+`Ctrl`{: .key} + `D`{: .key} = logs you out.
+`Ctrl`{: .key} + `R`{: .key} = finds the last command matching the entered letters.
 
 ## Images
 
@@ -607,3 +656,22 @@ Her old collecting she considered discovered. So at parties he warrant oh stayin
 #### And one more
 
 It allowance prevailed enjoyment in it. Calling observe for who pressed raising his. Can connection instrument astonished unaffected his motionless preference. Announcing say boy precaution unaffected difficulty alteration him. Above be would at so going heard. Engaged at village at am equally proceed. Settle nay length almost ham direct extent. Agreement for listening remainder get attention law acuteness day. Now whatever surprise resolved elegance indulged own way outlived. 
+
+## License
+
+The content of this theme is distributed and licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+> This license lets others distribute, remix, tweak, and build upon your work,
+> even commercially, as long as they credit you for the original creation. This
+> is the most accommodating of licenses offered. Recommended for maximum
+> dissemination and use of licensed materials.
+
+In other words: you can do anything you want with this theme on any site, just please
+provide a link to the original theme on github.
+
+This theme includes the following files which are the properties of their
+respective owners:
+
+* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
+* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
+* js/jquery.min.js - [jquery](https://jquery.com)
