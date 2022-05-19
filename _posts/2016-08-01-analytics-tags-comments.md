@@ -5,19 +5,16 @@ date: 2016-08-01 16:25:06
 description: Here you'll find how to setup analytics, tags and comments for your blog
 tags:
  - jekyll
- - analytics
- - tags
- - comments
 ---
 
 # Analytics
- 
+
 #### [Google Analytics](http://www.google.com/analytics/)
 
 To enable Google Analytics create an account [here](https://analytics.google.com). Then add your tracking id in `config.xml`, it should look something like `UA-********-1`
- 
+
 #### [Yandex Metrica](http://metrica.yandex.com)
- 
+
 To enable Yandex Metrica you need to register, create a 'counter' and then copy-paste it's code in `/_includes/yandex-metrica.html` file.
 
 # Tags

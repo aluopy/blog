@@ -5,7 +5,6 @@ date: 2016-09-20 16:25:06
 description: Few customizations available out of the box!
 share: true
 tags:
- - customizations
  - jekyll
 ---
 
@@ -29,7 +28,7 @@ $accent-color: #3CA2A2;     // original =)
 You can use one of them (just click the button below to see accent color in action) or define your own!
 
 <button class="btn" style="background-color:#C38FD6; color:#444444">#C38FD6</button>, <button class="btn" style="background-color:#8FD6B3; color:#444444">#8FD6B3</button>, <button class="btn" style="background-color:#35B4DE; color:#444444">#35B4DE</button>, <button class="btn" style="background-color:#D2E354; color:#444444">#D2E354</button>, <button class="btn" style="background-color:#52B54B; color:#444444">#52B54B</button>.
- 
+
 <script>
   $('.btn').click(function(){
     var color = $(this).text();
