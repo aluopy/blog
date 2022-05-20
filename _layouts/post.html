@@ -20,7 +20,7 @@
                   </div>
                   <div class="post-content">
                     {% if page.toc %}
-                      {% include toc.html html=content class='toc' %}
+                      {% include my-toc.html html=content class='toc' %}
                     {% endif %}
                     {{ content }}
                     {% include share.html %}
