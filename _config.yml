@@ -1,6 +1,6 @@
 # Jekyll configuration
 
-name: aluopy
+name: One Person's Revelry
 description: One Person's Revelry
 
 # Url is currently only used only for the RSS feed in feed.xml
@@ -11,7 +11,7 @@ url: https://aluopy.github.io/blog/
 baseurl: '/blog'
 
 author: aluopy
-copyright: 2015-2018
+copyright: 2022
 
 share:
   facebook: false
