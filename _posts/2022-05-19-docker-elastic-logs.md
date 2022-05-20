@@ -4,19 +4,14 @@ title: "docker-elastic-logs"
 date: 2022-05-19 10:00:00
 description: The Elastic stack powered by Docker and Compose, preconfigured with Security, Up with a Single Command. Suitable for Demoing, MVPs and small production deployments.
 tags: docker
+toc: true
 ---
-
-```html
-<div class="toc">
-  {% include my-toc.html html=content h_min=2 h_max=3 class="toc-list" item_class="toc-item" sanitize=true %}
-</div>
-```
 
 使用 Docker 和 Docker Compose 运行最新版本的 Elastic stack
 
 它使您能够使用 Elasticsearch 的搜索/聚合功能和 Kibana 的可视化功能来分析任何数据集。
 
-## Elasticsearch & Kibana 
+## Elasticsearch & Kibana
 
 ### 多节点集群
 
